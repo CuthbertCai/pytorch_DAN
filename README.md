@@ -1,10 +1,12 @@
 ## Pytoch_DAN
-> This is a implementation of [Learning Transferable Features with Deep Adaptation  
+> This is a simple implementation of [Learning Transferable Features with Deep Adaptation  
 > Networks][1] with pytorch. This paper introduced a simple and effective method for  
 > accomplishing domian adaptation with MMD loss. According to this paper,  
 > multi-layer features are adapted with MMD loss. In this paper, model is based  
-> on AlexNet, while this work just utilizes LeNet and tests on MNIST and  
-> MNIST_M datasets. The original implementation in caffe is [here][2].  
+> on AlexNet and tested on several datasets, while this work just utilizes  
+> LeNet and tests on MNIST and MNIST_M datasets. The original implementation  
+> in caffe is [here][2].
+  
 
 ### Data
 > In this work, MNIST and MNIST_M datasets are used in experiments. MNIST dataset  
