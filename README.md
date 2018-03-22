@@ -1,4 +1,4 @@
-## Pytoch_DANN
+## Pytoch_DAN
 > This is a implementation of [Learning Transferable Features with Deep Adaptation  
 > Networks][1] with pytorch. This paper introduced a simple and effective method for  
 > accomplishing domian adaptation with MMD loss. According to this paper,  
