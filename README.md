@@ -17,6 +17,9 @@
 ```
 python preprocess.py
 ```
+> If you could not download MNIST_M dataset from [Yaroslav Ganin's homepage][3], you cou-  
+> ld download it from [MEGA Cloud][4]. Once you download it, then you just need to unzip  
+> the file to `/data` and the `preprocess.py` should not be used.
 
 ### Experiments
 > You can run `main.py` to implements the MNSIT experiments. This work's results  
@@ -25,10 +28,11 @@ python preprocess.py
 |Method     | Target Acc(this work)|
 |:----------:|:----------------:|
 |Source Only| 0.5189|
-|DANN       | 0.5829|
+|DAN       | 0.5829|
 
 
 
 [1]:https://arxiv.org/pdf/1502.02791.pdf
 [2]:https://github.com/thuml/DAN
 [3]:http://yaroslav.ganin.net/
+[4]:https://mega.nz/#!FuIQhYKJ!IVxcmZK1ZH2MZA-7gKkgR4FExPuJl7-m89eDRPVKhF4
